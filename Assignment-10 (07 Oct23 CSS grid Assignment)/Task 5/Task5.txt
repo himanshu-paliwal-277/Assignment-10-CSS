@@ -1,0 +1,8 @@
+Justify-items :-
+
+Justify items is set on grid container and it is a container level css property. Justify items is used to set the alignment of the grid items in a row axis (Horizontal Axis). Justify-items: start, end, center etc.
+
+
+Justify-self :-
+
+Justify self is set on grid item and it is a grid item level css property. Justify items is used to set the alignment of the grid item in a horizontal axis in the grid cell. Justify-self: start, end, center etc.

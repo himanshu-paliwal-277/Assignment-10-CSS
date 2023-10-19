@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid red;
+}
+
+.item {
+    background-color: rgb(0, 202, 0);
+    height: 80px;
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.container1 {
+    justify-items: center;
+}
+
+.container2 .item:nth-child(2){
+    justify-self: center;
+}
+
+.container2 .item:nth-child(4){
+    justify-self: start;
+}
+
+.container2 .item:nth-child(6){
+    justify-self: end;
+}

@@ -1,0 +1,10 @@
+Grid-auto-columns :- 
+
+               Grid-auto-column properties define the width of column that are automatically
+created when there is no explicit column definition.
+
+
+Grid-auto-rows :- 
+
+               Grid-auto-rows properties define the height of rows that are automatically
+created when there is no explicit row definition.

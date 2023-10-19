@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 287px);
+    gap: 15px;
+  }
+  
+  .item {
+    background-color: #fde4c5;
+    border-radius: 8px;
+    font-size: 80px;
+    padding: 80px;
+  }
+  
+  .container .item:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  
+  .container .item:nth-child(2) {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+  }

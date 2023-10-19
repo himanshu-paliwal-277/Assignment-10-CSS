@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 140px);
+    gap: 18px;
+}
+
+.box {
+    background-color: #cbcbcb;
+    border-radius: 10px;
+    font-size: 46px;
+    padding: 30px;
+}
+
+.box1, .box2 {
+    order: 1;
+}
+
+.box1, .box3, .box5, .box7 {
+    background-color: #434544;
+    color: white;
+}
